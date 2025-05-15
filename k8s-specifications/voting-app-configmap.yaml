@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: voting-app-config
+data:
+  OPTION_A: "Cats"
+  OPTION_B: "Dogs"
+  VOTE_PORT: "80"
+  RESULT_PORT: "80"
+  REDIS_HOST: "redis"
+  POSTGRES_HOST: "db"
+  POSTGRES_DB: "postgres"
